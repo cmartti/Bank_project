@@ -1,0 +1,257 @@
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(89, 89, 89);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(150, 150, 150);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+    
+    
+}
+
+.card .cardImage {
+    max-width: 60%;
+    height: auto;
+    border: 50%;
+    margin-bottom: 10px;
+}
+
+.amount-container {
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: rgb(110, 110, 110);*/
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: none;
+    max-width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+
+    
+}
+
+
+
+.amount-display {
+    font-size: 5em;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.amount-button {
+    width: 100px;
+    height: 50px;
+    font-size: 1.5em;
+    margin: 0px 2px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.amount-button:hover {
+    background-color: #82e4c1;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(19, 18, 18, 0.785);
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .leftSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.navbar .leftSide img{
+    width: 70px;
+    margin-left: 0px;
+}
+
+.navbar .rightSide {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.navbar .rightSide {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    width: 600px;
+    background: #fff;
+    padding: 30px;
+}
+
+.loginHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.loginText {
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.loginUnderline {
+    width: 61px;
+    height: 6px;
+    background: #3c009d;
+    border-radius: 9px;
+}
+
+.loginInputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.loginInput {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.loginInput img{
+    margin: 0px 30px;
+}
+
+.loginInput input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.loginSubmit-container {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+    .gray{
+    background: #EAEAEA;
+    color: #676767;
+    }
+
+
+
+    
+.firstPage h1 {
+    font-size: 56px;
+    font-style: italic;
+    border-bottom: #e4dfed;
+    border-width: 3px;
+}
+
+.firstPage p {
+    font-style: italic;
+    font-size: 20px;
+    max-width: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.firstPage h3 {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: rgb(237, 89, 138);
+    border-bottom: solid;
+    border-bottom-width: 5px;
+    
+}
+
+.firstPage {
+    margin-bottom: 5px;
+
+    
+}
+
+.homeLinks {
+    
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+    gap: 15px;
+    font-size: 20px;
+    background: rgba(18, 18, 144, 0.288);
+    margin-bottom: 150px;
+}
+
+.mainFirstPage {
+    background-image: url("../images/fintech.jpg");
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.397);
+    min-height: 100vh;
+    width: 100vh;
+    background-size:cover;
+    background-position-x: center;
+}

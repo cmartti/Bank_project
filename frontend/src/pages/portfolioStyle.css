@@ -1,0 +1,172 @@
+.portfolioHolder {
+font-size: 30px;
+}
+
+.portfolioTable {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+/*
+.petRock {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}*/
+
+.bigRock {
+    
+}
+
+.petRock{
+    font-style: italic;
+    font-size: 120%;
+    padding: 12px;
+    border-radius: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #04AA6D;
+}
+
+.petRock input {
+    padding: 2px 5px;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: 
+        linear-gradient(90deg, #222, #222) left bottom/0 2px no-repeat,
+        linear-gradient(90deg, #ccc, #ccc) left bottom/100% 2px no-repeat,
+        linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+}
+
+.petRock input:valid,
+.petRock input:focus {
+    background-size: 100% 2px, 100% 2px, 100%;
+}
+
+
+.positionText {
+    font-size: 34px;
+    font-style: italic;
+}
+
+.typeText {
+    display: flex;
+    flex-direction: row;
+}
+
+.addHolding {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    width: 400px;
+    margin: 0 auto;
+    background: #0c2e4e72;
+    padding: 10px 0;
+    margin-bottom: 12px;
+  }
+  
+
+.addHolding p {
+    font-style: italic;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.addHolding input {
+    justify-content: center;
+    align-items: center;
+    display: flex ;
+    flex-grow: 1;
+    font-size: 12px;
+    line-height: 12px;
+    vertical-align: middle;
+    height: 22px;
+    background-color: rgba(15, 15, 74, 0.352);
+    border-color: white;
+    color: #fafafa;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-radius: 8px;
+  
+  
+
+}
+.addHolding button{
+    background-color: #168d4896; /* Green */
+    border: solid;
+    margin: 0px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 80px;
+    
+}
+
+.addHolding button:hover {
+    background-color: #73d69cb9;
+}
+
+.addHolding select {
+    background-color: #0c2e4e72;
+    color: #fafafa;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 12px;
+    vertical-align: middle;
+    height: 22px;
+    flex-grow: 1;
+    border-radius: 8px;
+}
+
+.selectedType{
+    display: none;
+}
+
+.selectedType {
+    &__menu {
+      margin: 0.125rem auto;
+    }
+  
+    &__option {
+      background-color: white;
+  
+      &--is-focused {
+        background-color: lightblue;
+      }
+    }
+  
+    &__group {
+      padding: 0;
+    }
+  
+    &__menu-portal {
+      border: 1px solid darkblue;
+    }
+  }

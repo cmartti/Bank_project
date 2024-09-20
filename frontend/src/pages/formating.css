@@ -1,0 +1,183 @@
+
+/*
+.customerInfo {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    gap: 25px;
+    border: 1px solid;
+    padding: 15px;
+    text-align: left;
+}
+*/
+.customerInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+    
+  }
+
+th, td {
+
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #1a1a1a;
+
+
+  }
+  
+
+tr:nth-child(even) {background-color: #f2f2f2a5;}
+tr:nth-child(odd) {background-color: rgba(57, 211, 157, 0.594);}
+
+tr:hover {background-color: coral;}
+
+.editCustomers {
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    width: 600px;
+    background: rgba(8, 8, 83, 0.393);
+    /*background: #fff;*/
+    padding: 30px;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.editCustomers input {
+    height: 50px;
+    width: 300px;
+    background: transparent;
+    border: solid;
+    outline: none;
+    color: #ffffff;
+    font-size: 19px;
+    display: flex;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.editCustomers button {
+    background-color: #04AA6D; /* Green */
+    border: solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.accountPage {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+
+.confirmChange {
+    font-size: medium;
+}
+
+.balanceInput{
+    font-style: italic;
+    font-size: 120%;
+    padding: 12px;
+    border-radius: 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #04AA6D;
+}
+
+.balanceInput input {
+    padding: 2px 5px;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: 
+        linear-gradient(90deg, #222, #222) left bottom/0 2px no-repeat,
+        linear-gradient(90deg, #ccc, #ccc) left bottom/100% 2px no-repeat,
+        linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+}
+
+.balanceInput input:valid,
+.balanceInput input:focus {
+    background-size: 100% 2px, 100% 2px, 100%;
+}
+
+
+.balanceBox {
+    font-size: large;
+}
+
+.changeBalance {
+    margin-top: 30px;
+    display: flex;
+    /*flex-direction: column;*/
+    flex-direction: column-reverse;
+    width: 1200px;
+    font-style: italic;
+    border-top: solid;
+    border-top-width: 5px;
+}
+.confirmChange {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.confirmChange button{
+    background-color: #6204aa; /* Green */
+    border: solid;
+    margin: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    
+}
+
+.confirmChange button:hover {
+    background-color: #8e52c2;
+}
+
+.confirmAmount {
+    margin-top: 30px;
+}
+
+.confirmButton {
+    background-color: #0a9db7; /* Green */
+    border: solid;
+    margin: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
